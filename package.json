@@ -1,0 +1,26 @@
+{
+  "name": "cowin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "lalit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "datejs": "^1.0.0-rc3",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.9",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.0",
+    "request": "^2.88.2",
+    "sendmail": "^1.6.1",
+    "textbelt": "^0.0.4",
+    "textmagic-rest-client": "^1.0.11"
+  }
+}
