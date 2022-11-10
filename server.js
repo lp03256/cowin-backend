@@ -50,6 +50,7 @@ setInterval(function(){
                 
                 //console.log(date);
                 //let testAccount = nodemailer.createTestAccount();
+                
 
                 fetch("https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode="+pinCode+"&date="+date, {
                     method:"GET",
