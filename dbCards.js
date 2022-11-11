@@ -5,4 +5,4 @@ const cardSchema = mongoose.Schema({
     pinCode: String
 })
 
-module.exports = mongoose.model('cowin', cardSchema);
+module.exports = mongoose.model('cowin', cardSchema, false);
