@@ -17,7 +17,6 @@ app.use(express.json());
 app.use(Cors());
 //Db config
 
-
 mongoose.connect(connection_url, {
     useNewUrlParser : true,
     useCreateIndex: true,
